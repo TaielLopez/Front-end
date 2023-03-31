@@ -11,9 +11,6 @@
             display: flex;
             justify-content: center;
         }
-        a{
-            color: red;
-        }
         .card{
             width: 200px;
             height: 100%;
@@ -22,14 +19,14 @@
         }
         .card img{
             display: none;
-            border-start-end-radius: inherit;
-            border-start-start-radius: inherit;
+            border-start-end-radius: 20px;
+            border-start-start-radius: 20px;
             width: 100%;
         }
         .card p{
             text-align: center;
         }
-        .card p:nth-child(3){
+        .card p:nth-child(){
             color: red;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
@@ -38,13 +35,16 @@
 </head>
 <body>
     <section>
+              
         <div class="card" id="card">
-            <img src="https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cat" id="img">
-            <p>Cat: Mimi
-                <a href="https://www.google.com/"></a>
-            </p>
+            <a href="https://www.google.com." target="_blank">
+                <img src="https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cat" id="img">
+            </a>
+            <p>Cat</p>
             
         </div>
+
+
         
     </section>
 </body>
