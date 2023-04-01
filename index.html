@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital-Profile</title>
     <style>
         section{
             width: 100%;
@@ -12,41 +12,57 @@
             justify-content: center;
         }
         .card{
-            width: 200px;
-            height: 100%;
-            background-color: papayawhip;
+            width: 400px;
+            height: 600px;
+            background-color: rgb(220, 244, 202);
             border-radius: 20px;
-        }
-        .card img{
-            display: none;
-            border-start-end-radius: 20px;
-            border-start-start-radius: 20px;
-            width: 100%;
+            border-top-right-radius: 30%;
+            border-top-left-radius: 30%;
         }
         .card p{
             text-align: center;
         }
-        .card p:nth-child(){
-            color: red;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        a{
+            text-decoration:none;
+            color: rgb(94, 87, 87);
+            position:relative;
+            left: 100px;
+            align-content: space-between;
         }
-
+        img{
+            /* border-start-end-radius: 20px;
+            border-start-start-radius: 20px; */
+            border-radius: 30%;
+            width: 400px;
+        }
+        .logos {
+            top: 2px;
+            width: 18px;
+        }
     </style>
 </head>
 <body>
     <section>
-              
-        <div class="card" id="card">
-            <a href="https://www.google.com." target="_blank">
-                <img src="https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cat" id="img">
+        <div class="card">
+            <img src="./Assets_tarea/photo_2022-12-08_19-50-55.jpg" alt="Yo">
+            <p>Taiel O.Lopez</p>
+            <a href="https://twitter.com/Taiellz">
+                Twitter
+                <img class="logos" src="./Assets_tarea/pngwing.com(2).png" alt="Twitter_Logo">
             </a>
-            <p>Cat</p>
-            
+            <a href="https://www.instagram.com/taiellz/">
+                Instagram
+                <img class="logos" src="./Assets_tarea/pngwing.com(1).png" alt="Instagram_Logo">
+            </a>
+            <a href="https://www.linkedin.com/in/taiel-osvaldo-lopez-75515a201/">
+                LinkedIn
+                <img class="logos" src="./Assets_tarea/pngwing.com.png" alt="LinkedIn_Logo">
+             </a>
+            <p>Programador Front-end Jr</p>
+            <p>Programador Front-end Jr</p>
+            <p>Programador Front-end Jr</p>
+            <p>Programador Front-end Jr</p>
         </div>
-
-
-        
     </section>
 </body>
-<script src="./index.js"></script>
 </html>
